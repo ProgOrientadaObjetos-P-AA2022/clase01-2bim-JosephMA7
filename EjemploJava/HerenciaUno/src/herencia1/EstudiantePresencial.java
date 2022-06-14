@@ -43,7 +43,7 @@ public class EstudiantePresencial extends Estudiante{
     }
     @Override
     public String toString(){
-      String reporte = String.format("Nombre: \n"
+      String reporte = String.format("Nombre: %s\n"
               + "Apellido: %s\n"
               +"Identidicacion: %s\n"
               +"Edad: %s\n"
